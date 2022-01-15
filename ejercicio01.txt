@@ -1,0 +1,22 @@
+//solucion 1
+1. Inicio
+2. funcion principal() 
+3.    arreglo1(4), i[0-n] <-- {1, 2, 5, 6}
+4.    arreglo2(4), i[0-n] <-- {9, 8, 7, 1}
+5.    arreglo3(4), i[0-n] <-- {10, 18, 17, 10}
+6.    generarInformacion(arreglos1(4), arreglo2(4), arreglo(4))
+7. fin funcion principal
+8. funcion generarInformacion(arreglo1[], i; arreglo2[], i; arreglo3[], i)
+9.    a, i[0-n]
+10.   b, i[0-n]
+11.   c, i[0-n]
+12.   indice, i[0-n]
+13.   m, i[0-n]
+14.   Para(indice <-- 0, indice < 4, 1)
+15.        a = arreglo1[indice]
+16.        b = arreglo2[indice]
+17.        c = arreglo3[indice]
+18.   Fin_Para
+19.   m = (a**2 + b ** 2) + a*c
+20.   Escribir "El valor de m es" + m + " y los valores usados par la operación son: " + a + b + c
+21. fin funcion generarInformacion
