@@ -1,1 +1,35 @@
-sdasdasndasnasdnnads
+1.Inicio
+2.Funcion principal
+3.tipoFuncion,i[0-n]:
+4.String mensaje, (100)[(a-z),(A-Z),(BS),(0-n)];
+5.Escriba "Escriba 1 para ingresar autos y escriba 2 para ingresar motos"
+6.Lea tipoFuncion
+7.Si(tipoFuncion == 1) entonces
+8.mensaje <--ingresarAutos()
+9.de lo contario Si(tipoFuncion == 2) entonces
+10,mensaje < --ingresarMotos()
+11.Fin SI   
+12.Escribir <-- mensaje  
+13.Fin funcion principal
+14.funcion ingresarAutos()
+15.String marca, (100)[(a-z),(A-Z),(BS)];
+16.String fabricacion, (100)[(a-z),(A-Z),(BS),(0-n)];
+17.String cadena, (100)[(a-z),(A-Z),(BS),(0-n)];
+18.Escriba "Ingrese la marca del vehiculo"
+19.Lea marca
+20.Escriba "Ingrese el año de fabricacion del vehiculo"
+21.Lea fabricacion
+22.cadena <-- "Auto marca" + marca +" con año de fabricación" + fabricación
+23.retorna cadena
+24.fin funcion ingresarAutos
+25.funcion ingresarMotos()
+26.String motor, (100)[(a-z),(A-Z),(BS)];
+27.String asientos, (100)[(a-z),(A-Z),(BS),(0-n)];
+28.String cadena, (100)[(a-z),(A-Z),(BS),(0-n)];
+29.Escriba "Ingrese el tipo de gasolina que necesita"
+30.Lea motor
+31.Escriba "Ingrese los asientos de la moto"
+32.Lea asientos
+33.cadena <-- "Moto con motor a " + motor + "y" + asientos + "asientos"
+34.retorna cadena
+35.fin funcion ingresarMotos
